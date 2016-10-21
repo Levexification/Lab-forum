@@ -1,31 +1,21 @@
 <p id="notice"><%= notice %></p>
 
-<h1>User Tables</h1>
+<h1>User Tables</h1> 
 
-<table>
-  <thead>
-    <tr>
-      <th>User name</th>
-      <th>User pass</th>
-      <th>User mail</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
+<tbody>
     <% @user_tables.each do |user_table| %>
-      <tr>
+    <tr>
         <td><%= user_table.user_name %></td>
         <td><%= user_table.user_pass %></td>
         <td><%= user_table.user_mail %></td>
         <td><%= link_to 'Show', user_table %></td>
         <td><%= link_to 'Edit', edit_user_table_path(user_table) %></td>
         <td><%= link_to 'Destroy', user_table, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
+    </tr>
     <% end %>
-  </tbody>
-</table>
+</tbody>
 
+<br>
 <br>
 
 <%= link_to 'New User Table', new_user_table_path %>

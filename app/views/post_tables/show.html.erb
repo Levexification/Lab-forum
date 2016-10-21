@@ -1,14 +1,11 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
-  <%= @post_table.title %>
-</p>
+<h1><%= @post_table.title %></h1>
 
-<p>
-  <strong>Content:</strong>
-  <%= @post_table.content %>
-</p>
+<br>
 
+<p><%= @post_table.content %></p>
+
+<br>
 <%= link_to 'Edit', edit_post_table_path(@post_table) %> |
 <%= link_to 'Back', post_tables_path %>

@@ -1,2 +1,37 @@
+/* line 7, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/welcome.sass */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Comic Sans MS"; }
+
+/* line 13, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/welcome.sass */
+ul {
+  background-color: #9e9e9e;
+  list-style: none;
+  font-family: "Comic Sans MS"; }
+
+/* line 18, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/welcome.sass */
+li {
+  color: white;
+  font-size: 20px;
+  padding: 13px; }
+
+/* line 23, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/welcome.sass */
+p {
+  font-family: "Comic Sans MS";
+  margin: 10px 0px 0px 0px;
+  font-size: 16px; }
+
+/* line 28, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/welcome.sass */
+h1 {
+  font-size: 30px; }
+
+/* line 31, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/welcome.sass */
+li:nth-child(even) {
+  background-color: #686868; }
+
+/* line 34, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/welcome.sass */
+table {
+  margin: 20px 0px 0px 0px; }
 
 /*# sourceMappingURL=welcome.css.map */
