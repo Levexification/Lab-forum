@@ -1,0 +1,1 @@
+json.partial! "post_tables/post_table", post_table: @post_table

@@ -1,0 +1,2 @@
+class PostTable < ApplicationRecord
+end

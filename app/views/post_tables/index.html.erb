@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Post Tables</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Content</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @post_tables.each do |post_table| %>
+      <tr>
+        <td><%= post_table.title %></td>
+        <td><%= post_table.content %></td>
+        <td><%= link_to 'Show', post_table %></td>
+        <td><%= link_to 'Edit', edit_post_table_path(post_table) %></td>
+        <td><%= link_to 'Destroy', post_table, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Post Table', new_post_table_path %>

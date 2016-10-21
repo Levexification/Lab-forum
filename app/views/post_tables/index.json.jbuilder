@@ -1,0 +1,1 @@
+json.array! @post_tables, partial: 'post_tables/post_table', as: :post_table
