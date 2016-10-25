@@ -7,5 +7,11 @@
 <p><%= @post_table.content %></p>
 
 <br>
+<h2> Comments <h2>
+  <%= render @post_table.comments %>
+
+<h2> Add a comment<h2>
+ <%= render 'comments/form' %>
+ 
 <%= link_to 'Edit', edit_post_table_path(@post_table) %> |
 <%= link_to 'Back', post_tables_path %>
