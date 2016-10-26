@@ -5,6 +5,12 @@ class PostTablesController < ApplicationController
   # GET /post_tables.json
   def index
     @post_tables = PostTable.all
+
+    if params[:search]
+      @post_tables = PostTable.search(params[:search]).order("created_at DESC")
+    else
+      @post_tables = PostTable.all.order("created_at DESC")
+    end
   end
 
   # GET /post_tables/1
