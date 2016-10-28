@@ -6,11 +6,19 @@
 </head>
 
 <body>
-    <h1>Forum start page</h1>
+    <header>
+    <h1>>Forum start page</h1>
         <p>Sample text forum</p>
-    
+    </header>
+    <div id="thrdCont">
     <ul>
-        <li><%= link_to 'General', post_tables_path %></li>
+        <%= link_to '>General', post_tables_path, :id => "general"%>
+        <p>This thread contains a general discussion</p>
     </ul>
+    </div>
+    
+    <footer>
+        <p>This is a footer that contains legal information</p>
+    </footer>
 </body>
 </html>

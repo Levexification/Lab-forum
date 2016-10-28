@@ -1,35 +1,48 @@
 <p id="notice"><%= notice %></p>
 
-<h1>General Descussion</h1>
+<header>
+<h1>>General Discussion</h1>
+</header>
 
-<br>
+<div id="search">
 <%= form_tag(post_tables_path, :method => "get", id: "search-form") do %>
     <%= text_field_tag :search, params[:search], placeholder: "Search Post" %>
-    <%= submit_tag "Search", :title => nil %>
+    <%= submit_tag "Search", :title => nil, :id => "srchBtn" %>
+    <h4>Please enter search term!</h4>
 <% end %>
+</div>
 <% if @post_tables.blank? %>
   <h4>There are no matching posts to: <%= params[:search] %>.</h4>
 <% elsif params[:search].blank? %>
-  <h4>Please enter search term!</h4>
 <% end %>
+
 <table>
   <tbody>
     <% @post_tables.each do |post_table| %>
       <tr>
-        <td><%= post_table.title %></td>
-        <td><%= post_table.content %></td>
-        <td><%= link_to 'Show', post_table %></td>
-        <td><%= link_to 'Edit', edit_post_table_path(post_table) %></td>
-        <td><%= link_to 'Destroy', post_table, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <div id="center">
+        <div id="contCont">
+        <p id="titleContent"><%= post_table.title %></p>
+        <div id="postContentCont"><p id="postContent"><%= post_table.content %></p></div>
+        <div id="manage">
+        <p><%= link_to 'Show', post_table %></p>
+        <p><%= link_to 'Edit', edit_post_table_path(post_table) %></p>
+        <p id="dest"><%= link_to 'Destroy', post_table, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+        </div>
+        </div>
+        </div>
       </tr>
     <% end %>
   </tbody>
 </table>
 
-<br>
-<br>
+<div id="navCont">
+<nav>
+<%= link_to 'Back to Index', root_path, :id => "backTo", :class => "navi" %>
+<%= link_to 'New Post', new_post_table_path, :id =>"newP", :class => "navi" %>
+</nav>
+</div>
 
-<%= link_to 'New Post', new_post_table_path %>
-<br>
-<br>
-<%= link_to 'Back to Index', root_path %>
+<footer>
+    <p>This is a footer that contains legal information</p>
+</footer>

@@ -1,2 +1,113 @@
+/* line 11, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/post_tables.sass */
+#notice {
+  margin: 0px 0px 30px 0px;
+  position: absolute;
+  z-index: 2;
+  top: 100px; }
+
+/* line 17, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/post_tables.sass */
+header {
+  background-color: crimson;
+  width: 100%;
+  height: 100px;
+  background-image: -moz-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
+  background-image: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
+  background-image: -ms-linear-gradient(left, red, orange, yello, green, blue, indigo, violet);
+  background-image: linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); }
+
+/* line 28, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/post_tables.sass */
+header h1 {
+  font-size: 4em; }
+
+/* line 31, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/post_tables.sass */
+#search {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+/* line 38, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/post_tables.sass */
+#search h4 {
+  position: absolute;
+  top: 175px;
+  left: 680px; }
+
+/* line 43, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/post_tables.sass */
+#search-form {
+  margin: 30px 0px 0px 0px;
+  width: 30%; }
+
+/* line 47, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/post_tables.sass */
+#srchBtn {
+  margin: 10px 0px 0px 0px; }
+
+/* line 50, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/post_tables.sass */
+#center {
+  display: flex;
+  justify-content: center; }
+
+/* line 54, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/post_tables.sass */
+#contCont {
+  width: 50%;
+  padding: 10px;
+  margin: 20px 0px 0px 0px; }
+
+/* line 59, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/post_tables.sass */
+#manage {
+  display: flex;
+  float: right;
+  width: 100%;
+  justify-content: space-between;
+  margin: 10px 0px 0px 0px; }
+
+/* line 67, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/post_tables.sass */
+#manage p {
+  background-color: green;
+  padding: 3px 13px 3px 13px;
+  border: 2px green outset; }
+
+/* line 72, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/post_tables.sass */
+#manage p {
+  margin: 0px 15px 0px 0px; }
+
+/* line 75, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/post_tables.sass */
+#titleContent {
+  border: 1px black solid;
+  font-size: 2em;
+  background-image: -moz-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
+  background-image: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
+  background-image: -ms-linear-gradient(left, red, orange, yello, green, blue, indigo, violet);
+  background-image: linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); }
+
+/* line 84, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/post_tables.sass */
+#postContentCont {
+  display: flex;
+  justify-content: center; }
+
+/* line 88, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/post_tables.sass */
+#postContent {
+  width: 95%;
+  background-color: green;
+  margin: 0px 0px 0px 0px;
+  font-size: 2em; }
+
+/* line 95, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/post_tables.sass */
+#navCont {
+  display: flex;
+  justify-content: center; }
+
+/* line 99, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/post_tables.sass */
+nav {
+  font-size: 1.5em;
+  width: 90%;
+  margin: 50px 0px 0px 0px;
+  display: flex;
+  justify-content: space-around; }
+
+/* line 106, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/post_tables.sass */
+.navi {
+  background-color: green;
+  border: 2px green outset;
+  padding: 6px; }
 
 /*# sourceMappingURL=post_tables.css.map */
