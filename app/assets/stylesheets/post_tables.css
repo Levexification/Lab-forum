@@ -26,16 +26,10 @@ header h1 {
   display: flex;
   justify-content: center; }
 
-/* line 38, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/post_tables.sass */
-#search h4 {
-  position: absolute;
-  top: 175px;
-  left: 680px; }
-
 /* line 43, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/post_tables.sass */
 #search-form {
   margin: 30px 0px 0px 0px;
-  width: 30%; }
+  width: 20%; }
 
 /* line 47, C:/Users/jopet4/Documents/Skolarbete/Ruby On Rails Site/forum/app/assets/stylesheets/post_tables.sass */
 #srchBtn {
