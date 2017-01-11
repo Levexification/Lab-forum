@@ -14,6 +14,7 @@
 <% if @post_tables.blank? %>
   <h4>There are no matching posts to: <%= params[:search] %>.</h4>
 <% elsif params[:search].blank? %>
+  <h4>Please enter search term!</h4>
 <% end %>
 
 <table>
